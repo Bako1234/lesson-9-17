@@ -1,0 +1,36 @@
+ .box-child {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    margin: 10px;
+ }
+  .box-child:nth-child(1){
+    background-color: chartreuse;
+  }
+   .box-child:nth-child(2){
+    background-color: aqua;
+   }
+  .boxes{
+   /* height:450px;*/
+    display:flex; 
+    flex-wrap: wrap;
+    /* horizontal position*/
+    justify-content: space-between;
+    /* vertical position */
+    align-items: center;
+    background-color: seagreen;
+    flex-direction: row-reverse;
+  }
+  .box-wrapper{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: grey;
+  }
+  .flex{
+    display: flex;
+  }
+  .color-green{
+    color: green;
+  }
